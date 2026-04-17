@@ -2,7 +2,7 @@
 # Config
 # ===============================
 
-REGISTRY := ghcr.io/blackmocca
+REGISTRY := blackmocca
 IMAGE_NAME := office
 IMAGE_TAG := 9.3.1-office
 

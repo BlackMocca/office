@@ -46,7 +46,7 @@ https://github.com/ONLYOFFICE/DocumentServer
 Pre-built image is available on GitHub Container Registry:
 
 ```bash
-docker pull ghcr.io/blackmocca/office:stable-1.0.0
+docker pull blackmocca/office:stable-1.0.0
 ```
 
 Run the container:
@@ -56,7 +56,7 @@ docker run -d \
   --name office \
   --env-file .env \
   -p 8089:80 \
-  ghcr.io/blackmocca/office:stable-1.0.0
+  blackmocca/office:stable-1.0.0
 ```
 
 ---
