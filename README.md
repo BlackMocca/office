@@ -40,13 +40,24 @@ https://github.com/ONLYOFFICE/DocumentServer
 
 ---
 
-## 🔧 Modifications
 
-The following files have been modified from the upstream source:
+## 🐳 Docker Image
 
-* `/var/www/onlyoffice/documentserver/web-apps/apps/documenteditor/main/app/modified_file.js`
+Pre-built image is available on GitHub Container Registry:
 
-> Additional modifications may be applied as part of ongoing development.
+```bash
+docker pull ghcr.io/blackmocca/office:stable-1.0.0
+```
+
+Run the container:
+
+```bash
+docker run -d \
+  --name office \
+  --env-file .env \
+  -p 8089:80 \
+  ghcr.io/blackmocca/office:stable-1.0.0
+```
 
 ---
 
