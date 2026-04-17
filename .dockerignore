@@ -1,0 +1,13 @@
+.env
+.env.*
+.claude
+docs
+dist
+.git
+sdkjs/.git
+sdkjs/tests
+sdkjs/node_modules
+web-apps/.git
+web-apps/node_modules
+build_tools/.git
+build_tools/node_modules
